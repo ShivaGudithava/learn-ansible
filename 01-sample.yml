@@ -1,6 +1,7 @@
 - name: Install Nginx
   hosts: WEB
   become: true
+
   tasks:
     - name: Install nginx
       ansible.builtin.yum:
@@ -12,5 +13,4 @@
          name: nginx
          state: started
          enabled: yes
-  daemon_reload: yes
 
