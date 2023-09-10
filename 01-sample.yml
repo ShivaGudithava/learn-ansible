@@ -1,6 +1,9 @@
-- name: Install Nginx
+- name: Start Nginx
   hosts: WEB
   become: true
+  service:
+    name: nginx
+    state: started
 
   tasks:
     - name: Install nginx
