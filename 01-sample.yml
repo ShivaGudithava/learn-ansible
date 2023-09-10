@@ -1,6 +1,7 @@
 - name: Start Nginx
   hosts: WEB
   become: true
+
   service:
     name: nginx
     state: started
