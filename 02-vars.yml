@@ -1,5 +1,6 @@
 - name: Variable
-  hosts: local host
+  hosts: localhost
+  connections: local
   vars:
     URL: google.cpm
   tasks:
