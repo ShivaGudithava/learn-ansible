@@ -1,7 +1,7 @@
 - name: Variable
   hosts: localhost
   vars:
-    URL: google.cpm
+    URL: google.com
   tasks:
     - name: Print variable
       ansible.builtin.debug:
