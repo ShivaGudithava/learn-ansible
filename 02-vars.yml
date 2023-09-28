@@ -1,5 +1,5 @@
 - name: Variable
-  hosts: all
+  hosts: local host
   vars:
     URL: google.cpm
   tasks:
