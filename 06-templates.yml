@@ -1,6 +1,6 @@
 - name: Template Demo
   hosts: localhost
-  connections: local
+  connection: local
   vars:
     fruit_name: apple
   tasks:
